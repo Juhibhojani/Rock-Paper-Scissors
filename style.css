@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: block;
+    background-color: #2A2D43; 
+    text-align: center;
+    color: #FFA9E7;
+}
+
+h1{
+    align-content: center;
+    text-align: center;
+    padding: 2%;
+    color: #7F2CCB;
+    background-color: #FFA9E7;
+}
+
+button{
+    color: #FFA9E7;
+    background-color: white;
+    height: 30px;
+    padding: auto;
+    width: auto;
+    font-size: larger;
+    text-align: center;
+}
+
+.rules{
+    padding: 4%;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.image{
+    width: 700px;
+    height: 600px;
+    border-radius: 0%;
+    object-fit: cover;
+}
+
+.choices{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1%;
+    align-items: center;
+    justify-content: center;
+}
+
+.choice:hover{
+    opacity: 0.5;
+}
+
+.choice{
+    height: 200px;
+    width: 200px;
+    gap: 5px;
+    display: center;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap: 5rem;
+}
+
+#user,#computer{
+    font-size: 4rem;
+}
+
+.msg-container{
+    margin-top: 3rem;
+}
+
+#msg{
+    background-color: white;
+    color:#FFA9E7;
+    font-size: 2rem;
+    margin-top: 3rem;
+    display: inline;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.reset{
+    padding: auto;
+    margin-top: 2.5rem;
+}
